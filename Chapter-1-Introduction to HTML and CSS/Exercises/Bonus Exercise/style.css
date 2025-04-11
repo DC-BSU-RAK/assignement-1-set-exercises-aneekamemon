@@ -1,0 +1,142 @@
+
+
+
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 1490px;
+    background-color:#0C342C;
+    margin-left: -28px;
+    margin-top: -37px;
+}
+
+.options h6 {
+    text-align: left;
+    color: #E3EF26;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 40px;
+    margin-bottom: 20px;
+
+}
+
+.options h5 {
+    text-align: right;
+    color: #E3EF26;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 50px;
+    margin-bottom: 20px;
+
+}
+
+.title h1{
+    color: #076653;
+    font-size: 140px;
+    text-align: left;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 50px;
+    padding-left: 20px;
+
+}
+
+
+.des1html{
+    height: 350px;
+    width: 550px;
+    background-color:#06231D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 870px;
+    margin-top: 50px;
+    border-radius: 15px;
+
+
+}
+
+.des1css{
+    height: 350px;
+    width: 550px;
+    background-color:#06231D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 870px;
+    margin-top: 20px;
+    border-radius: 15px;
+
+}
+
+
+.des1html h3{
+    color: #E2FBCE;
+    font-size: 30px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+.des1css h3{
+    color: #E2FBCE;
+    font-size: 28px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    padding: 10px;
+}
+
+.neon {
+    height: 770px;
+    width: 595px;
+    background-color:#E3EF26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 847px;
+    margin-top: -745px;
+    position: absolute;
+    z-index: -1;
+    opacity: 40%;
+}
+
+.neon2 {
+    height: 770px;
+    width: 810px;
+    background-color:#E3EF26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: -745px;
+    position: absolute;
+    z-index: -1;
+    opacity: 40%;
+}
+
+.images {
+    width: 760px;
+    height: 720px;
+    display: block;
+    margin-left: 40px;
+    margin-top: -720px;
+    border-radius: 15px;
+    filter: sepia(15) saturate(8) hue-rotate(115deg) brightness(70%) opacity(4);
+}
