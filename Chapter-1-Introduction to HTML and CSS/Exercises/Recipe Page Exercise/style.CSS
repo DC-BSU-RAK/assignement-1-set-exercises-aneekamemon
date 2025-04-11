@@ -111,13 +111,7 @@
     font-weight: 400;
     font-style: normal;
 }
-.imagesboxes {
 
-    width: 100px;
-    max-width: 250px;
-    justify-content: center;
-    align-items: center;
-}
 
 .images {
     width: 450px;
