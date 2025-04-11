@@ -1,0 +1,121 @@
+.myboxes {
+    display: solid;
+    column-gap: 30px;
+}
+
+
+
+.Ingredientsbox {
+    height: 450px;
+    width: 450px;
+    background-color:#C06226;
+    position: static;
+    border-radius: 15px;
+    margin-left: 60px;
+    padding: 2px;
+    flex-shrink: 0;
+
+}
+
+.Ingredientsbox h2 {
+
+    color: #310E10;
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+}
+
+.Ingredientsbox h3 {
+    color: #F4E3B2;
+    text-align: left;
+    font-size: 30px;
+
+}
+
+.Recipebox {
+    height: 455px;
+    width: 850px;
+    background-color: #984619;
+    position: static;
+    float: right;
+    border-radius: 15px;
+    margin-right: 60px;
+    margin-top: -455px;
+    flex-direction: column;
+
+
+}
+
+.Recipebox h2 {
+
+    color: #310E10;
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+    flex-direction: column;
+
+}
+
+.Recipebox h3 {
+    color: #F4E3B2;
+    text-align: left;
+    font-size: 20px;
+    padding: 5px;
+    flex-direction: column;
+
+}
+
+.Nutsbox {
+    margin-left: 60px;
+    margin-top: -300px;
+    height: 295px;
+    width: 850px;
+    background-color:#74070E;
+    border-radius: 15px;
+
+    padding: 2px;
+    flex-shrink: 0;
+
+}
+
+.imagesboxes {
+
+    width: 100px;
+    max-width: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    width: 450px;
+    height: 300px;
+    display: block;
+    margin-left: 930px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.gradient {
+    background-image: linear-gradient(to right, #9D5353, #BF8B67, #DBCB96);
+    -webkit-animation-fill-color: transparent;
+    border-radius: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    height: 60px;
+    text-align: center;
+
+
+}
+
+.description {
+    color: #310E10;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+
+}
