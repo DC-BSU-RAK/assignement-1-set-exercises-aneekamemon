@@ -178,7 +178,7 @@ label {
     border-radius: 10px 10px 0 0;
     margin-right: 3px;
     transition: background 0.3s ease;
-    font-size: 25px;
+    font-size: 40px;
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -205,29 +205,53 @@ label:hover {
 .content {
     display: none;
     padding: 20px;
-    height: 600px;
+    height: 450px;
     color: #076653;
     background: #E2FBCE;
     border: 2px solid #E2FBCE;
     border-top: none;
     border-radius: 0 5px 5px 5px;
     box-shadow: 0 5px 15px 0,0,0,0.1;
-    opacity: 0;
     font-size: 30px;
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    text-align: center;
+    padding-left: 80px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: justify;
+
 }
 
     #HTMLtags:checked ~ .number1,
-    #HTMLdescription:checked ~ .number2,
-    #HTMLExamples:checked ~ .number3,
-    #CSStags:checked ~ .number4,
-    #CSSdescription:checked ~ .number5,
-    #CSSExamples:checked ~ .number6 {
+    #HTMLExamples:checked ~ .number2,
+    #CSStags:checked ~ .number3,
+    #CSSExamples:checked ~ .number4 {
     display: block;
     opacity: 1;
     animation: popup 0.3s ease forwards;
     }
+
+.number2 {
+    column-count: 2;
+    column-gap: 30px;
+    font-size: 14px;
+
+}
+
+.number4 {
+    column-count: 3;
+    column-gap: 55px;
+    font-size: 35px;
+}
+
+.footer {
+    color: #076653;
+    font-size: 13px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: right;
+}
