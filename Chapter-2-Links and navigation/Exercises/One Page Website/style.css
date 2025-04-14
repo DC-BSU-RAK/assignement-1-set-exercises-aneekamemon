@@ -9,11 +9,9 @@ background-color: #f0f6f7;
 
 
 .borderweb {
-    height: 9000px;
-    min-height: 100vh;
+    height: 6850px;
     border: 3px solid #4e452a;
-    border-radius: 0;
-    margin: 20px;
+    margin: 15px;
     box-sizing: border-box;
     font-family: 'Clash Display', sans-serif;
 
@@ -28,15 +26,16 @@ background-color: #f0f6f7;
 
 .nav2 {
     position: absolute;
-    margin-left: 1010px;
-    margin-top: -67px;
+    margin-left: 990px;
+    margin-top: -65px;
     font-weight: 700;
     text-align: center;
     align-items: center;
     padding: 10px;
     height: 30px;
     width: 115px;
-    background-color:#6d7500;
+    background-color:#89aec8;
+    border: 3px solid #0b0e29;
     border-radius: 5px;
     justify-content: flex-start;
     display: flex;
@@ -44,7 +43,8 @@ background-color: #f0f6f7;
 
 .nav2:hover {
     background-color:#757761;
-    border: 2px #6d7500;
+    color: #4e4452;
+    border: 3px solid;
 
 }
 
@@ -105,7 +105,7 @@ background-color: #f0f6f7;
 .jumpto {
     position: relative;
     font-weight: 300;
-    top: 300px;
+    top: 270px;
     left: 30px;
     color: #6d7500;
     font-size: 50px;
@@ -239,7 +239,7 @@ background-color: #f0f6f7;
     top: 980px;
 }
 
-.Characters {
+.Reviews {
     position: absolute;
     font-size: 45px;
     right: 430px;
@@ -251,20 +251,20 @@ background-color: #f0f6f7;
     align-items: right;
 }
 
-.Characters:hover {
+.Reviews:hover {
     color: #89aec8;
 }
 
-.Reviews {
+.AppleTvTag {
     position: absolute;
     font-size: 45px;
-    left: 1200px;
+    left: 1170px;
     top: 890px;
     color: #4e452a;
 
 }
 
-.Reviews:hover {
+.AppleTvTag:hover {
     color: #89aec8;
 }
 
@@ -335,7 +335,7 @@ background-color: #f0f6f7;
     font-size: 30px;
     color: #002c55;
     top: 400px;
-    left: 120px;
+    left: 250px;
     width: 1000px;
     text-align: right;
     justify-content: right;
@@ -344,4 +344,119 @@ background-color: #f0f6f7;
     padding: 10px;
     flex-direction: column;
 
+}
+
+.keyline {
+
+    position: absolute;
+    width: 1380px;
+    height: 2px;
+    background-color: #6d7500;
+    top: 1680px;
+    left: -28px;
+
+}
+
+.Casting {
+    position: absolute;
+    font-weight: 700;
+    display: block;
+    font-size: 100px;
+    color: #002c55;
+    top: 3200px;
+    left: 65px;
+    text-align: left;
+    justify-content: left;
+    display: flex;
+    align-items: left;
+    padding: 20px;
+}
+
+.castline {
+    position: absolute;
+    width: 1380px;
+    height: 2px;
+    background-color: #6d7500;
+    top: 1280px;
+    left: -28px;
+}
+
+.Creativeteam {
+
+    position: absolute;
+    font-weight: 700;
+    display: block;
+    font-size: 100px;
+    color: #002c55;
+    top: 4400px;
+    left: 65px;
+    text-align: left;
+    justify-content: left;
+    display: flex;
+    align-items: left;
+    padding: 20px;
+}
+
+.ctinfo p {
+    font-weight: 300;
+    font-size: 30px;
+    color: #002c55;
+    position: absolute;
+    width: 880px;
+    top: 280px;
+    left: 350px;
+    text-align: right;
+    justify-content: right;
+    display: flex;
+    align-items: right;
+    padding: 20px;
+}
+
+.ctline {
+    position: absolute;
+    width: 1380px;
+    height: 2px;
+    background-color: #6d7500;
+    top: 780px;
+    left: -28px;
+}
+
+.reviews {
+
+    position: absolute;
+    font-weight: 700;
+    display: block;
+    font-size: 100px;
+    color: #002c55;
+    top: 5110px;
+    left: 65px;
+    text-align: left;
+    justify-content: left;
+    display: flex;
+    align-items: left;
+    padding: 20px;
+}
+
+.reviewsdets {
+    font-weight: 300;
+    font-size: 30px;
+    color: #002c55;
+    position: absolute;
+    width: 880px;
+    top: 280px;
+    left: 350px;
+    text-align: right;
+    justify-content: right;
+    display: flex;
+    align-items: right;
+    padding: 20px;
+}
+
+.reviewsline{
+    position: absolute;
+    width: 1380px;
+    height: 2px;
+    background-color: #6d7500;
+    top: 1740px;
+    left: -28px;
 }
