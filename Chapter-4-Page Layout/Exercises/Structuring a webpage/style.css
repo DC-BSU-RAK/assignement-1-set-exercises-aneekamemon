@@ -10,6 +10,8 @@ html, body {
 
 }
 
+/* Navigation content */
+
 .navigation {
     background-color: #17072b;
     padding: 1px;
@@ -32,6 +34,8 @@ html, body {
     margin: 40px;
     color: #ffffff;
 }
+
+/* Title content */
 
 .welcome {
     width: 905px;
@@ -77,6 +81,8 @@ html, body {
     padding: 10px;
     margin: 10px;
 }
+
+/* Images */
 
 .image2 {
     width: 900px;
