@@ -61,15 +61,21 @@ body, html {
 
 }
 
+/* A blur filter has been added on the first image */
+
+
 .images2:hover {
 
     filter: grayscale(80%);
 
 }
 
+/* A grayscale filter has been added on the second image */
 
 .images3:hover {
 
     filter: sepia(100%);
 
 }
+
+/* A sepia filter has been added on the third image */
