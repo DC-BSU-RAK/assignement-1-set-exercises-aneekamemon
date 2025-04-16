@@ -14,23 +14,35 @@ div {
     margin: 100px auto;
     width: max-content;
   }
+  /* Code given beforehand */
 
 
+  /* New code to style the Divs */
+
+
+/* For the first box */
 .BoxA {
     border: 5px solid rgb(152, 15, 186);
     box-shadow:  16px 16px 10px rgb(243, 53, 53);
 }
+
+
+/* For the second box */
 
 .BoxB {
     border: 5px solid lightgreen;
     box-shadow: inset 16px 16px 10px black;
 }
 
+/* For the third box */
+
 .BoxC {
     border: 6px solid pink;
     border-radius: 30px;
     box-shadow: 0 0 0 10px rgb(41, 41, 210), 0 0 0 20px red, 0 0 0 30px darkgreen;
 }
+
+/* For the fourth box */
 
 .BoxD {
     border: 5px solid maroon;
