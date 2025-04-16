@@ -8,6 +8,8 @@ html, body {
     color: #091C2A;
 }
 
+/* Calculator that has been added to the center of the page */
+
 .Calculator {
     width: 450px;
     height: 450px;
