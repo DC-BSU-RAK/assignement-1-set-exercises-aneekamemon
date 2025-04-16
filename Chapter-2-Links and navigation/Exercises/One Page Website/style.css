@@ -3,17 +3,27 @@ height: 100%;
 margin: 0;
 padding: 0;
 background-color: #f0f6f7;
-
+font-family: 'Clash Display', sans-serif;
 }
 
 
+/* line designs that have been added through the webpage */
+
+.gap, .divider1, .divider2, .divider3,
+ .divider4, .divider5, .line, .line2, .line5, .plotline,
+.keyline, .castline, .ctline, .reviewsline {
+    position: absolute;
+    background-color: #6d7500;
+}
+
+
+/* The border that makes up the webpage */
 
 .borderweb {
     height: 6850px;
     border: 3px solid #4e452a;
     margin: 15px;
     box-sizing: border-box;
-    font-family: 'Clash Display', sans-serif;
 
 }
 
@@ -23,6 +33,8 @@ background-color: #f0f6f7;
     text-align: left;
 }
 
+
+/* navbar which includes a clickable button */
 
 .nav2 {
     position: absolute;
@@ -57,6 +69,8 @@ background-color: #f0f6f7;
     background-color: #6d7500;
 }
 
+/* The languages buttons that include the short forms of English, Spanish, and Urdu */
+
 .language {
     height: 40px;
     width: 40px;
@@ -73,6 +87,8 @@ background-color: #f0f6f7;
     align-items: center;
 }
 
+
+/* The title and subheading */
 .sev {
     position: relative;
     font-weight: 700;
@@ -94,10 +110,8 @@ background-color: #f0f6f7;
 }
 
 .line {
-    position: absolute;
     width: 1380px;
     height: 2px;
-    background-color: #6d7500;
     top: 560px;
     left: 37px;
 }
@@ -116,108 +130,101 @@ background-color: #f0f6f7;
 }
 
 .divider1 {
-    position: absolute;
     width: 2px;
     height: 350px;
-    background-color: #6d7500;
     top: 600px;
     left: 337px;
 }
 
-.divider2 {
-    position: absolute;
+
+/* Design lines; their positions and sizes */
+.divider2, .divider3, .divider4, .divider5 {
     width: 2px;
     height: 140px;
-    background-color: #6d7500;
     top: 600px;
+}
+
+
+.divider2 {
     left: 700px;
 }
 
 .divider3 {
-    position: absolute;
-    width: 2px;
-    height: 140px;
-    background-color: #6d7500;
-    top: 600px;
     left: 1070px;
 }
 
 .line2 {
-    position: absolute;
     width: 1000px;
     height: 2px;
-    background-color: #6d7500;
     top: 770px;
     left: 390px;
 }
 
 .divider4 {
-    position: absolute;
     width: 2px;
     height: 140px;
-    background-color: #6d7500;
     top: 805px;
     left: 700px;
 
 }
 
 .divider5 {
-    position: absolute;
-    width: 2px;
-    height: 140px;
-    background-color: #6d7500;
     top: 805px;
     left: 1070px;
 }
 
-.plot {
+.plot, .KeyInfo, .Cast, .CreativeTeam,
+.Reviews, .AppleTvTag {
     position: absolute;
     font-size: 45px;
+    color: #4e452a;
+}
+
+
+
+.plot {
     left: 560px;
     top: 690px;
-    color: #4e452a;
-
 }
 
-.plot:hover {
+
+/* Hover color of the Id anchors */
+.plot:hover, .KeyInfo:hover, .Cast:hover,
+.CreativeTeam:hover, .Reviews:hover, .AppleTvTag:hover {
     color: #89aec8;
 }
+
+.plotinfo p, .keydets p, .ctinfo p, 
+.reviewsdets {
+    position: absolute;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 10px;
+    color: #002c55;
+    text-align: right;
+
+}
+
 
 .KeyInfo {
-    position: absolute;
-    font-size: 45px;
     right: 430px;
     top: 635px;
-    color: #4e452a;
     text-align: right;
     justify-content: right;
     display: flex;
     align-items: right;
 }
 
-.KeyInfo:hover {
-    color: #89aec8;
-}
 
 .Cast {
-    position: absolute;
-    font-size: 45px;
     left: 1270px;
     top: 690px;
-    color: #4e452a;
-
 }
 
-.Cast:hover {
-    color: #89aec8;
-}
 
 .CreativeTeam {
-    position: absolute;
-    font-size: 45px;
     left: 460px;
     top: 840px;
-    color: #4e452a;
     text-align: right;
     justify-content: right;
     display: flex;
@@ -226,47 +233,30 @@ background-color: #f0f6f7;
 
 }
 
-.CreativeTeam:hover {
-    color: #89aec8;
-}
 
 .line5 {
-    position: absolute;
     width: 1380px;
     height: 2px;
-    background-color: #6d7500;
     left: 40px;
     top: 980px;
 }
 
 .Reviews {
-    position: absolute;
-    font-size: 45px;
     right: 430px;
     top: 890px;
-    color: #4e452a;
     text-align: right;
     justify-content: right;
     display: flex;
     align-items: right;
 }
 
-.Reviews:hover {
-    color: #89aec8;
-}
 
 .AppleTvTag {
-    position: absolute;
-    font-size: 45px;
     left: 1170px;
     top: 890px;
-    color: #4e452a;
 
 }
 
-.AppleTvTag:hover {
-    color: #89aec8;
-}
 
 .Plot {
     position: absolute;
@@ -285,28 +275,20 @@ background-color: #f0f6f7;
 
 
 .plotinfo p {
-    position: absolute;
-    font-weight: 300;
     display: block;
-    font-size: 30px;
-    color: #002c55;
     top: 240px;
     width: 1000px;
-    text-align: right;
     justify-content: center;
     display: flex;
     align-items: center;
-    padding: 10px;
     flex-direction: column;
 
 }
 
 
 .plotline {
-    position: absolute;
     width: 1380px;
     height: 2px;
-    background-color: #6d7500;
     top: 800px;
     left: -28px;
 
@@ -328,30 +310,20 @@ background-color: #f0f6f7;
 }
 
 .keydets p {
-
-    position: absolute;
-    font-weight: 300;
     display: block;
-    font-size: 30px;
-    color: #002c55;
     top: 400px;
     left: 250px;
     width: 1000px;
-    text-align: right;
     justify-content: right;
     display: flex;
     align-items: right;
-    padding: 10px;
     flex-direction: column;
 
 }
 
 .keyline {
-
-    position: absolute;
     width: 1380px;
     height: 2px;
-    background-color: #6d7500;
     top: 1680px;
     left: -28px;
 
@@ -373,10 +345,8 @@ background-color: #f0f6f7;
 }
 
 .castline {
-    position: absolute;
     width: 1380px;
     height: 2px;
-    background-color: #6d7500;
     top: 1280px;
     left: -28px;
 }
@@ -398,14 +368,9 @@ background-color: #f0f6f7;
 }
 
 .ctinfo p {
-    font-weight: 300;
-    font-size: 30px;
-    color: #002c55;
-    position: absolute;
     width: 880px;
     top: 280px;
     left: 350px;
-    text-align: right;
     justify-content: right;
     display: flex;
     align-items: right;
@@ -413,16 +378,13 @@ background-color: #f0f6f7;
 }
 
 .ctline {
-    position: absolute;
     width: 1380px;
     height: 2px;
-    background-color: #6d7500;
     top: 780px;
     left: -28px;
 }
 
 .reviews {
-
     position: absolute;
     font-weight: 700;
     display: block;
@@ -438,14 +400,9 @@ background-color: #f0f6f7;
 }
 
 .reviewsdets {
-    font-weight: 300;
-    font-size: 30px;
-    color: #002c55;
-    position: absolute;
     width: 880px;
     top: 280px;
     left: 350px;
-    text-align: right;
     justify-content: right;
     display: flex;
     align-items: right;
@@ -453,10 +410,8 @@ background-color: #f0f6f7;
 }
 
 .reviewsline{
-    position: absolute;
     width: 1380px;
     height: 2px;
-    background-color: #6d7500;
     top: 1740px;
     left: -28px;
 }
