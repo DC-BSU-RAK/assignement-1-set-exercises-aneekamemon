@@ -3,6 +3,10 @@ html, body {
     background-color: #060608;
 }
 
+/* Overflow: hidden to stop spillage of overflowing content like the vinyl */
+
+
+/* The poster on the top left */
 .ltposter {
     position: fixed;
     width: 500px;
@@ -16,6 +20,8 @@ html, body {
     border: 5px solid #b82727;
 }
 
+/* The video that has been centered  */
+
 .video {
     position: absolute;
     top: 50%;
@@ -24,6 +30,9 @@ html, body {
     z-index: 10;
 }
 
+
+
+/* The spinning vinyl that has been added to the bottom right*/
 .spinningvinyl {
     position: fixed;
     bottom: -220px;
@@ -33,11 +42,15 @@ html, body {
     z-index: 2;
 }
 
+/* Z-index used to place the video in-front of the vinyl and poster */
+
 .spinningvinyl img {
     width: 100%;
     height: auto;
     animation: spin 4s linear infinite;
 }
+
+/* This causes the vinyl to spin infiinitely at 4 seconds per rotation */
 
 @keyframes spin {
     from {
@@ -48,3 +61,5 @@ html, body {
         transform:rotate(360deg);
     }
 }
+
+/* The rotation code that allows the vinyl to spin the full 360 degrees */
