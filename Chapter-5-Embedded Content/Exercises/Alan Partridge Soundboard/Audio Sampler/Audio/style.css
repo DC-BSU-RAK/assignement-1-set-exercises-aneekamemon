@@ -1,0 +1,78 @@
+html, body {
+    overflow: hidden;
+    width: 1420px;
+    font-family: 'Sharpie', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('sound.jpeg');
+    background-size: cover;
+}
+
+
+.button, .button2, .button3, .button4, .button5, .button6, .button7,.button8 {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(219, 219, 219);
+    color: rgb(70, 5, 5);
+    border: 4px solid rgb(70, 5, 5);
+    border-radius: 15px;
+    padding: 20px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.4);
+}
+
+.button:hover,.button2:hover, .button3:hover,.button4:hover,
+.button5:hover,.button6:hover, .button7:hover, .button8:hover  {
+
+
+    background-color: rgb(194, 0, 0);
+    color: rgb(236, 236, 236);
+    border: 4px solid black;
+    border-radius: 15px;
+    transform: scale(1.05);
+}
+
+.button {
+    top: 460px;
+    left: 480px;
+}
+
+.button2 {
+    top: 460px;
+    left: 660px;
+}
+
+.button3 {
+    top: 560px;
+    left: 480px;
+}
+
+.button4 {
+    top: 560px;
+    left: 660px;
+}
+
+.button5 {
+    top: 660px;
+    left: 480px;
+
+}
+
+.button6 {
+    top: 660px;
+    left: 660px;
+}
+
+.button7 {
+    top: 760px;
+    left: 480px;
+}
+
+.button8 {
+    top: 760px;
+    left: 660px;
+}
